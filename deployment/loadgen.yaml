@@ -5,6 +5,7 @@ metadata:
     app: loadgen
   name: loadgen
 spec:
+  replicas: 3  # Set the number of replica pods here
   selector:
     matchLabels:
       app: loadgen
